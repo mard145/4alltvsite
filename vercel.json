@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "4alltvwebsite",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
